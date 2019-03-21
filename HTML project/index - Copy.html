@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<title>SunTech</title>
+		<meta charset  = "UTF-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		<style>
+			body {
+				font-family: Helvetica;
+				font-size: 18px;
+			}
+
+			.welcome {
+				width: 300px;
+			}
+		</style>
+
+	</head>
+	
+	<body>
+
+		<!--SunTech logo-->
+		<img src = "images/suntech5.png" width = "200px" height = "100px" />
+		<br />
+	
+		<!--navigation links-->
+		<br />
+		<div>
+			<nav>
+				<a href = "#home">Home</a>
+				<a href = "#about">About</a>
+				<a href = "#signUp">Sign Up</a>
+				<a href = "#contactUs">Contact Us</a>
+			</nav>
+			<p><small>#200 Agbani Road, Enugu State, Nigeria</small></p>
+			<p><small>Email: suntech017@gmail.com</small></p>
+			<hr />
+		</div>
+		
+		
+		<!--Welcome-->
+		<div class = "welcome">
+			<h1>Welcome!</h1>
+			
+			<img src = "images/welcome3.jpeg" width = "300px"  height = "auto"/>
+			<p>
+				  SunTech is a leading ICT company in Nigeria, 
+				  we are committed to training developers in web 
+				  and software development. Have you been searching 
+				  for a place to learn how to code? Well, 
+				  you've found right place. Here are SunTech, 
+				  we teach you how to develop stunning websites 
+				  and mobile applications. Get ready for an exciting 
+				  journey into the world of coding!
+				
+			</p>
+		</div>
+		<hr />
+		
+		
+		<!--What you'll learn-->
+		<div>
+			<h1>What You Will Learn</h1>
+			
+			<h2>1. Web Development</h2>
+			<img src = "images/webdev.png" width = "300px" height="auto"/>
+			<p>
+					Get equipped with the necessary skills needed<br />
+					to design websites. Here, you will learn<br />
+					on-demand web technologies like HTML5, CSS3, <br />
+					Javascript, Perl, PHP and MySQL needed<br />
+					to create amazing websites.
+				
+			</p>
+			<hr /><br />
+			
+			<h2>2. Software development</h1>
+			<img src = "images/softwaredev.jpeg" width = "300px" height="auto" />
+			<p>
+				
+					The world is going mobile. Mobile apps are taking over,<br />
+					and software developers are in high demand today.<br /> 
+					As a software developer, you will build apps that<br />
+					perform useful tasks both on the android and ios platforms.<br />
+					Our world-class curriculum is designed to teach you<br />
+					how to develop mobile apps using programming languages <br />
+		 			like Java, C, C++ and Objective C.
+				
+		    </p>
+		</div>
+		<hr />
+		  
+		 
+		  <!--Our partners-->
+		  <div>
+			  <h1>Our Partners</h1>
+			  <p>SunTech partners with other IT companies to achieve projects. <br />
+				Over the years, we have partnered with some companies like:</p>
+			  <img src = "images/cisco.jpeg" width = "150px" height="100px"/><br />
+			  <img src = "images/microsoft.png" width = "150px" height="100px"/><br />
+			  <img src = "images/oracle.png" width = "150px" height="100px"/>
+		  </div>
+		  <hr />
+		  <br /><br />
+		  
+		  
+		  <!--Employment-->
+		  <div>
+		  	<h1>Joining SunTech</h1>
+		  	<p>
+		  		We are hiring passionate developers to work<br />
+		  		with us.Applications are also accepted from <br />
+		  		people who have zero experience in programming, <br /> 
+		  		but are willing to learn and improve. Join us today! 
+			</p>
+		</div>
+		
+		
+		<!--Sign up form-->
+		<form action = "http://www.suntech.org.ng" method = "get">
+		<fieldset>
+			<legend><b>Sign Up</b></legend>
+			
+			<label><b>First name</b><br /> 
+				<input type = "text" name = "firstname" required = "required"/>
+			</label><br />
+			
+			<br />
+			<label><b>Last name</b><br /> 
+				<input type = "text" name = "lastname" required = "required"/>
+			</label><br />
+			
+			<br />
+			<label><b>Gender</b></br>
+				<select>
+					<option>male</option>
+					<option>female</option>
+				</select>
+			</label><br />
+
+			<br />
+			<label><b>Age</b><br />
+				<input type = "date" name = "Age" placeholder = "DD/MM/YY" required = "required"/>
+			</label><br />
+
+			<br />
+			<label><b>Education</b><br /> 
+				<select>
+						<option>SSCE</option>	
+						<option>OND</option>
+						<option>HND</option>
+						<option>B.Sc</option>
+				</select>
+			</label><br />
+
+			<br />
+			<label><b>Position</b><br />
+				<select>
+					<option>Web Developer</option>
+					<option>Mobile App Developer</option>
+				</select>
+			</label><br />
+			
+			<br />
+			<label><b>Level of Expertise</b><br />
+				<select>
+					<option>Beginner</option>
+					<option>Intermediate</option>
+					<option>Advanced</option>
+				</select>
+			</label><br />
+
+			<br />
+			<label><b>Passport</b><br />
+				<input type = "file" name = "passport" /><br />
+				<input type = "submit" value = "upload" />
+			</label><br />
+
+			<br />
+			<label><b>CV</b><br />
+				<input type = "file" name = "CV" required = "required"/><br />
+				<input type = "submit" value = "upload" />
+			</label><br />
+
+			<br />
+			<label><b>Interest Statement</b><br />
+				<textarea type = "text" cols = "20" rows = "4" required = "required">
+				Briefly tell us why you want to join SunTech....
+				</textarea>
+			</label><br />
+
+			<p>
+				<input type = "submit" name = "signup" value = "Submit" />
+			</p>
+
+		</fieldset>
+		</form>
+		<hr />
+
+		<i><b>
+			We strongly believe in dedication and passion,
+			you own your learning and complete projects at your own pace. <br />
+			And what is more interesting?......"You earn while you learn!!"</b>
+		</i>
+		<br /><br />
+		<hr /><br />
+
+		<!--footer-->
+		<footer>
+			
+				<a href = "#about">About Us</a><br />
+				<a href = "#terms">Terms and conditions</a><br />
+				<a href = "#policy">Privacy policy</a><br />
+				<a href = "#adveritise">Advertise with us</a><br />
+			<small>Copyright &copy Suntech 2018</small>
+		</footer>
+	</body>
