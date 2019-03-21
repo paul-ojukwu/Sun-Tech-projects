@@ -1,0 +1,329 @@
+.jsOff {
+    display: none;
+}
+
+.jsOn {
+    display: block;
+}
+
+html {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    font-family: sans-serif;
+    overflow-x: auto;
+    overflow-y: auto;
+    
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    width: 100%;
+    background-color: #395a9b;
+    height: 90px;
+}
+
+.logo {
+    display: inline;
+    margin-left: 13.5%;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 28px;
+}
+
+.login-form {
+    position: relative;
+    top: -30px;
+    margin-left: 57.5%;
+    font-size: 13px;
+    color: white;
+    
+}
+
+
+#e-mail, #pass {
+    width: 92%;
+    border: 1px solid black;
+    height: 19px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+#login {
+    background-color: #456bb6;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #284377;
+    height: 22px;
+}
+
+#login:hover {
+    background-color: #395a9b;
+}
+
+#forgotten>a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.main {
+    height: 640px;
+    background: linear-gradient(white, #D3D8E8);
+    overflow: hidden;
+}
+
+.connect {
+    position: relative;
+    top: 30px;
+    
+}
+
+#fbconnect {
+    display: block;
+    font-size: 20px;
+    font-weight:  bold;
+    color: rgba(4, 4, 53, 0.836);
+    position: relative;
+    left: 13.2%;
+    top: 14px;
+}
+
+#GlobalConnect {
+    position: relative;
+    left: 13.2%;
+    top: 20px;
+
+}
+
+.sign-up {
+    position: relative;
+    top: -240px;
+    left: 56.6%;
+    
+}
+
+#create {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+#free {
+    font-size: 22px;
+    position: relative;
+    top: -13px;
+}
+
+#name_password {
+    position: relative;
+    top: -15px;
+}
+
+#firstName {
+    height: 35px;
+    width: 195px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    border-radius: 4px;
+    padding-left:10px;
+}
+
+#surName{
+    height: 35px;
+    width: 195px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    border-radius: 4px;
+    padding-left:10px;
+    margin-left: 7px;
+}
+
+#mobile {
+    height: 35px;
+    width: 412px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    border-radius: 4px;
+    padding-left:10px;
+    margin-left: 7px;
+    position: relative;
+    top: 10px;
+    left: -6px;
+}
+
+#new-pass {
+    height: 38px;
+    width: 412px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    border-radius: 4px;
+    padding-left:10px;
+    margin-left: 7px;
+    position: relative;
+    top: 20px;
+    left: -6px;
+}
+
+#birthday {
+    position: relative;
+    top: 9px;
+    font-size: 20px;
+    left: 2px;
+}
+
+#birth_day {
+    position: relative;
+    top: -15px;
+}
+
+#day {
+    height: 30px;
+    position: relative;
+    top: 13px;
+    width: 63px;
+}
+
+#month {
+    height: 30px;
+    position: relative;
+    top: 13px;
+    left: -6px;
+    width: 72px;
+}
+
+#year {
+    height: 30px;
+    position: relative;
+    top: 13px;
+    left: -11px;
+    width: 70px;
+}
+
+#why {
+    width: 150px;
+    display: block;
+    position: relative;
+    left: 212px;
+    top: -31px;
+    font-size: 12px;
+   
+    
+}
+
+#why>a {
+    color:  #395a9bf5;
+}
+
+.gender {
+    position: relative;
+    top: -15px;
+    left: 5px;
+}
+
+#male, #female {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.terms {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.548);
+    width: 330px;
+    position: relative;
+    top: 3px;
+}
+
+.terms>a {
+    color: #395a9bf5;
+}
+
+#create_acct {
+    position: relative;
+    top: 30px;
+    width: 210px;
+    height: 39px;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 4px;
+    background: linear-gradient( #79af6b, #568d40);
+    text-rendering: optimizeLegibility;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.5px;
+    text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.507);
+}
+
+#create_acct:hover {
+    background: linear-gradient( #77af6bd5, #568d40);
+}
+
+#createPage {
+    position: relative;
+    top: 80px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.589);
+}
+
+#createPage>a {
+    color: #395a9b;
+}
+
+.footer {
+    position: relative;
+    margin-left: 13.5%;
+    top: 50px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.548);
+    width: 80%;
+}
+
+
+#languages {
+    margin-right: 10px;
+}
+
+#languages>a {
+    color: #395a9bf5;
+}
+
+#languages>button {
+    width: 30px;
+    font-size: 15px;
+}
+
+#misc {
+    margin-right: 19px;
+    position: relative;
+    top: 5px;
+}
+
+#misc2 {
+    margin-right: 19px;
+    position: relative;
+    top: 10px;
+}
+
+#misc>a {
+    color: #395a9bf5;
+}
+
+#misc2>a {
+    color: #395a9bf5;
+}
+
